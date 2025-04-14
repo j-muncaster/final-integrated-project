@@ -631,7 +631,7 @@
     border: 1px solid #ccc;
   }
   
-  .submit-button {
+ .submit-button {
     background-color: #9a2018;
     color: white;
     font-weight: 400;
@@ -643,10 +643,12 @@
     position: relative;
     display: inline-block;
     width: 90%;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
   }
 
   .submit-button:hover {
     background-color: #CF6666;
+    transform: scale(1.10);
   }
 
   #popup-toggle:checked + label .checkmark::after {
